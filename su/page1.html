@@ -8,48 +8,89 @@
 <body>
     <script>
     </script>
-    <h1>오죠사마, 미팅 시간 확인하겠습니다.</h1>
+    <h1>오죠사마, 여행 스케줄 확인하겠습니다 📑🖋</h1>
 
     <form>
-        <p>
-            <strong>미팅 인원 확인하겠습니다.</strong>
-            <hr>나이<input type="text" name="age"></hr>
-            <hr>성별<input type="text" name="gender">
-            <hr>일행의 수<input type="text" name="friends">
-            <hr>일행과의 관계<input type="text" name="realation">
-        </p>
-        <p>
-            <strong>미팅 날짜 확인하겠습니다.</strong>
-            <hr><input type="checkbox" name="rightnow"> 지금 당장
-            <input type="checkbox" name="24hour"> 24시간 이내
-            <input type="checkbox" name="tomorrow"> 내일
-            <input type="checkbox" name="self"> 직접 선택
-            <hr><input type="date" name="start day" value="check start day">
-            <input type="date" name="final day" value="ckeck final day">
-        </p>
-        <p>
-            <strong>무엇을?</strong>
-            <hr><input type="radio" name="gender" value="M">휴식
-            <input type="radio" name="gender" value="M">쇼핑
-            <input type="radio" name="gender" value="F">액티비티
-        </p>
-        <p>
-            <strong>미팅 장소까지 어떻게 모실까요?</strong>
-            <hr><input type="checkbox" name="car" value="자차"> 자차
-            <input type="checkbox" name="" value="대중교통"> 대중교통
-            <input type="checkbox" name="recommand" value="추천"> 추천경로
-        </p>
-        <p>
-            <strong>왜?</strong>
-            <hr><input type="checkbox" name="part"> 기분전환
-            <input type="checkbox" name="part"> 번아웃
-            <input type="checkbox" name="part"> 추억여행
-            <input type="checkbox" name="part"> 언젠가 가보고 싶었던 여행지
-        </p>
-        <p>
+        <p><fieldset>
+            <strong>여행 인원 확인하겠습니다.</strong>
+            <hr>나이<br> 
+                <input type="radio" name="20"></hr> 20~22
+                <input type="radio" name="23"></hr> 23~26
+                <input type="radio" name="23"></hr> 27~29
+                <input type="radio" name="23"></hr> 30~32
+                <input type="radio" name="23"></hr> 33~36
+                <input type="radio" name="23"></hr> 37~40
+                <input type="radio" name="etc"> 직접입력 <input type="text" name="etc">
+            <hr>성별 <br>
+                <input type="radio" name="M"> 남자
+                <input type="radio" name="W"> 여자
+            <hr>일행의 수
+            <select>
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five-ten">5~10</option>
+                <option value="-twenty">11~20</option>
+            </select>
+
+            <hr>일행과의 관계<br> 
+                <input type="radio" name="family"> 가족
+                <input type="radio" name="friends"> 친구
+                <input type="radio" name="couple"> 애인
+                <input type="radio" name="bussiness"> 직장동료 
+                <input type="radio" name="etc"> 직접입력 <input type="text" name="etc">
+        </fieldset></p>
+
+
+        <p><fieldset>
+            <strong>여행 날짜 확인하겠습니다.</strong>
+            <hr>출발일자<br>
+                <input type="checkbox" name="rightnow"> 지금 당장
+                <input type="checkbox" name="24hour"> 24시간 이내
+                <input type="checkbox" name="tomorrow"> 내일
+                <input type="checkbox" name="self"> 직접 선택
+                <input type="date" name="start day" value="check start day">
+            <hr></br>도착일자<br>
+                <input type="checkbox" name="24hour"> 24시간 이내
+                <input type="checkbox" name="tomorrow"> 내일
+                <input type="checkbox" name="self"> 직접 선택
+                <input type="date" name="final day" value="ckeck final day">
+        </fieldset></p>
+
+
+        <p><fieldset>
+            <strong>어떤 여행 스타일을 선호하십니까?</strong>
+                <hr><input type="radio" name="gender" value="M">휴식
+                <input type="radio" name="gender" value="M">쇼핑
+                <input type="radio" name="gender" value="F">액티비티
+        </fieldset></p>
+
+
+        <p><fieldset>
+            <strong>여행지까지 어떻게 모실까요?</strong>
+                <hr><input type="checkbox" name="car" value="자차"> 자차
+                <input type="checkbox" name="airplane" value="비행기"> 비행기
+                <input type="checkbox" name="ktx" value="ktx"> ktx
+                <input type="checkbox" name="recommand" value="추천"> 추천경로
+                
+        </fieldset></p>
+
+
+        <p><fieldset>
+            <strong>여행 스케줄을 잡으신 이유가 무엇입니까?</strong>
+                <hr><input type="checkbox" name="part"> 기분전환
+                <input type="checkbox" name="part"> 번아웃
+                <input type="checkbox" name="part"> 추억여행
+                <input type="checkbox" name="part"> 언젠가 가보고 싶었던 여행지
+        </fieldset></p>
+
+
+        <p><fieldset>
             <strong>여행 가는 차 안, 오죠사마께서 듣고 싶은 노래는 무엇인가요?</strong>
-            <input type="text" name="song" value="playlist🎧">
-        </p>
+            <input type="text" name="song" value="play your playlist🎧">
+        </fieldset></p>
 
  
         </p>

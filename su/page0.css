@@ -1,9 +1,10 @@
 
 h1 {
     font-size: 40px;
-    font: black;
+    font: gold;
     text-align: center;
-    padding: 200px 0;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
 p{
@@ -12,20 +13,16 @@ p{
 
 h3{
     font-size: 20px;
+    font: red;
     text-align: center;
-    padding: 10px 0;
 }
 
-.main_img{
-    position: relative;
-    width="100px"
-    height="500px"
+body{
+    background-color: 	GhostWhite;
+    font-family: "";
 }
 
-.main_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50% );
-    color: white;
+font-face{
+    font-family: 'Alex';
+    src: './fonts/AlexBrush-Regular.woff' format('woff');
 }
